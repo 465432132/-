@@ -1,0 +1,730 @@
+*{ 
+  margin: 0px;
+  padding:0px;
+
+}
+
+/* 去掉滚过条 */
+body::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+}
+
+
+#bon{
+	width:1920px;
+	height: 6970px;
+	margin: 0 auto;
+	background: url(img/yuewui.png)no-repeat;
+	background-position: bottom;
+}
+/* <!-- 一来显示的效果 --> */
+#num{
+	margin: 0 auto;
+	position: fixed;
+	z-index: 99;
+	width: 1920px;
+	height:855px;
+	background: url(img/11.jpg) no-repeat;
+	background-size: 100%;
+	box-sizing: border-box;
+	animation:key ease-in-out 6s;
+	animation-fill-mode:forwards;/*保持最后一个关键帧  效果*/
+}
+
+/* 第   一    块 */
+#bon .nav{
+	      width:1920px;
+		  height: 120px;
+		  position: absolute;
+		  z-index: 1;
+}
+
+.nav .aaa{
+	      width: 1320px;
+		  height: 120px;
+		  margin: 0 auto;
+		  left: -144px
+	
+}
+.nav .logo{
+	       width: 264px;
+		   height: 95px;
+		   background: url(img/logo.png) no-repeat;
+		   position: absolute;
+		   top:10px;
+		  
+}
+
+.nav .aaa .na_v{
+	           width: 994px;
+			   height: 120px;
+			   float:right;
+}
+
+.nav .aaa .na_v li{
+	               float:left;
+				   list-style: none;
+				   width: 142px;
+				   height:120px;
+				   line-height: 120px;
+				   text-align: center;
+}
+
+.nav .aaa .na_v li a{
+					width: 142px;
+					height: 120px;
+					display: block;
+				     text-decoration:none;
+					 color:#c91006;
+					 font-family:"微软雅黑";
+					 font-size:18px;
+					 font-weight: 200;
+}
+
+.nav .aaa .na_v li a:hover{
+	                       
+	                       font-weight: bold;
+						   color:#ffffff;
+						   background: linear-gradient(90deg, #ff0d00 18%, #a3130c 100%);
+						   }
+          
+/* 第   二    块 */ 
+#bon .banner{
+		   width: 100%;
+		   height: 2441px;
+		   position:absolute;
+		   z-index: 0;
+		   top:0px;
+		   background: #FFFFFF;
+			  }
+
+
+#bon .banner .aa{
+	           position: absolute;
+               z-index: 1;
+			   width: 100%;
+}			  
+#bon .banner .bb{
+	           position: absolute;
+			   z-index: 2;
+			   top:486px;
+			   width: 100%;
+}
+#bon .banner .cc{
+	           position: absolute;
+			   z-index: 3;
+			   top:324px;
+			   left:330px;
+			   transition: 0.5s;
+			   opacity: 0;
+}
+
+#bon .banner .lijie{
+	                width:205px;
+					height: 56px;
+					background: #000000;
+					position: absolute;
+					z-index: 4;
+					top:729px;
+					left: 286px;
+					transition: 0.5s;
+}
+#bon .banner .lijie:hover{
+					box-shadow: 4px 4px 4px #000000;
+}           
+
+
+#bon .banner .lijie a{
+					  width: 205px;
+					  height: 56px;
+					  display: block;
+                      font-size: 20px;
+					  font-family: "方正兰亭超...";
+                      line-height: 56px;
+					  padding-left:41px;
+					  text-decoration:none;
+					  font-style:italic;
+					  letter-spacing:2px;
+					  color: #FFFFFF;
+					  
+}
+
+#bon .banner .lijie a:hover{color:#c5180f;
+                            
+	}
+	
+#bon .banner .lijie a:hover .ii{ border-top: 10px solid #C5180F;
+		}	             
+#bon .banner .lijie a span:hover{
+	                             border-top: 10px solid #C5180F;
+}
+#bon .banner .lijie a span{
+					   position: absolute;
+					   top:24px;
+					   right:30px;
+	                   width: 0;
+	                   height: 0;
+	                   border-left: 5px solid transparent;
+	                   border-right: 5px solid transparent;
+	                   border-top: 9px solid #FFFFFF;
+}
+
+/* 第三块 */
+#bon .main{
+	       width: 1920px;
+		   height: 1366px;
+		   background: url(img/bjing.png) no-repeat;
+		   position: absolute;
+		   top:1004px;
+}
+
+#bon .main .ww{
+	           position: absolute;
+			   width: 726px;
+			   height: 256px;
+			   top:300px;
+			   left: 597px;
+}
+#bon .main .mai_n{
+	              width: 100%;
+				  height: 369px;
+				  position: absolute;
+				  top:630px;
+				  left: 162px;
+}
+
+#bon .main .main1{
+	              width: 432px;
+				  height: 366px;
+				  background: #FFFFFF;
+				  float: left;
+				  margin-left: 87px;
+				  background: url(img/bjing3.png) no-repeat;
+				  background-position:-443px 0px ;
+}
+#bon .main .main2{
+	              width: 432px;
+				  height: 366px;
+				  background: #000000;
+				  float: left;
+				  margin-left: 70px;
+				  background: url(img/bjing6.png) no-repeat;
+				  
+}
+#bon .main .main3{
+	              width: 432px;
+				  height: 366px;
+				  background: #002372;
+				  float: left;
+				  margin-left: 70px;
+				  background: url(img/bjing4.png) no-repeat;
+				  background-position:-441px 0px ;
+}
+
+#bon .main .ma_in{
+	              width:412px;
+				  height:76px;
+				  border: 1px #FFFFFF solid;
+				  position:absolute;
+				  bottom: 200px;
+				  left: 762px;
+}
+
+#bon .main .ma_in a{
+	                width: 205px;
+	                height: 56px;
+	                display: block;
+	                font-size: 30px;
+	                font-family: "方正兰亭超...";
+	                line-height: 75px;
+	                padding-left:105px;
+	                text-decoration:none;
+	                font-style:italic;
+	                letter-spacing:2px;
+	                color: #FFFFFF;
+}
+
+#bon .main .ma_in a span{
+					   position: absolute;
+					   top:33px;
+					   right:115px;
+	                   width: 0;
+	                   height: 0;
+	                   border-left: 9px solid transparent;
+	                   border-right: 9px solid transparent;
+	                   border-top: 14px solid #FFFFFF;
+}
+
+#bon .main .ma_in:hover span{ border-top: 10px solid #C5180F;
+		}	             
+#bon .main .ma_in:hover a{
+	                      color:#C5180F;
+}
+#bon .main .ma_in:hover{
+	                    border: 1px solid #C5180F;
+}
+
+/* 第    三    块 */
+#bon .msg{
+	      width:1920px;
+		  height:1310px;
+		  background: #030303;
+		  position: absolute;
+		  top:2345px;
+}
+
+#bon .msg .uu{
+	         margin-left: 157px;
+}
+
+#bon .msg .ms_g{
+	            width: 1920px;
+				height: 1167px;
+				margin-top: 50px;
+}
+
+#bon .msg .msg1{
+	            width: 479px;
+				height: 1167px;
+				float: left;
+				background: #002372;
+				background: url(img/tu11.png);
+				
+}
+#bon .msg .msg2{
+	            width: 479px;
+				height: 1167px;
+				float: left;
+				background:#C5180F;
+				background: url(img/tu22.png);
+}
+#bon .msg .msg3{
+	            width: 479px;
+				height: 1167px;
+				float: left;
+				background: #FFFFFF;
+				background:url(img/tu33.png);
+}
+#bon .msg .msg4{
+	            width: 479px;
+				height: 1167px;
+				float: left;
+				background: #00fff0;
+				background:url(img/tu44.png);
+}
+
+#bon .msg .ms_g .msg1 .msg_1,#bon .msg .ms_g .msg2 .msg_2,#bon .msg .ms_g .msg3 .msg_3,#bon .msg .ms_g .msg4 .msg_4{
+				  position:absolute;
+				  position:relative;
+				  bottom:-827px;
+				  left:23px;
+	              width:150px;
+				  height:50px;
+				  background:#000000;
+				  display: none;
+				  }
+
+#bon .msg .ms_g .msg_1 a,#bon .msg .ms_g .msg_2 a,#bon .msg .ms_g .msg_3 a,#bon .msg .ms_g .msg_4 a{
+	                width: 121px;
+	                height: 56px;
+	                display: block;
+	                font-size: 10px;
+	                font-family: "方正兰亭超...";
+	                line-height: 53px;
+	                padding-left:30px;
+	                text-decoration:none;
+	                font-style:italic;
+	                letter-spacing:2px;
+	                color: #FFFFFF;
+					display: none;
+}
+#bon .msg  .msg1:hover .msg_1,#bon .msg .msg2:hover .msg_2,#bon .msg .msg3:hover .msg_3,#bon .msg .msg4:hover .msg_4{display: block;}
+#bon .msg  .msg1:hover a,#bon .msg .msg2:hover a,#bon .msg .msg3:hover a,#bon .msg .msg4:hover a{display: block;}
+
+#bon .msg .msg1 .msg_1 a:hover,#bon .msg .msg2 .msg_2 a:hover,#bon .msg .msg3 .msg_3 a:hover,#bon .msg .msg4 .msg_4 a:hover{color:#C5180F}
+#bon .msg .msg1 .msg_1 a:hover span,#bon .msg .msg2 .msg_2 a:hover span,#bon .msg .msg3 .msg_3 a:hover span,#bon .msg .msg4 .msg_4 a:hover span{border-top: 8px solid #C5180F;}
+
+#bon .msg .ms_g .msg_1 a span,#bon .msg .ms_g .msg_2 a span,#bon .msg .ms_g .msg_3 a span,#bon .msg .ms_g .msg_4 a span{
+					   position: absolute;
+					   top:22px;
+					   right: 38px;
+	                   width: 0;
+	                   height: 0;
+	                   border-left: 4px solid transparent;
+	                   border-right: 4px solid transparent;
+	                   border-top: 8px solid #FFFFFF;
+}
+
+/* 第四块 */
+#bon .box{
+	     width: 1920px;
+		 height: 1422px;
+		 background: #000000;
+		 position:absolute;
+		 top:3655px;
+		 
+}
+#bon .rr{
+			  position:absolute;
+			  z-index: 10;
+	          left:157px;
+              top:3765px;
+			  }
+
+#bon .box .box1{
+	            margin-top: 177px;
+}
+
+#bon .box .box1 .box2{
+					width: 1922px;
+					height: 1143px;
+					overflow: hidden;
+	                position:absolute;
+					transition: 1s;
+					display: block;
+}
+#bon .box .box1 .box3{
+					width: 1922px;
+					height: 1143px;
+					overflow: hidden;
+	                position:absolute;
+					transition: 1s;
+					display: none;
+}
+#bon .box .box1 .box4{
+					width: 1922px;
+					height: 1143px;
+					overflow: hidden;
+	                position:absolute;
+					transition: 1s;
+					display: none;
+}
+#bon .box .box1 .box5{
+					width: 1922px;
+					height: 1143px;
+					overflow: hidden;
+	                position:absolute;
+					transition: 1s;
+					display: none;
+}
+			  
+#bon .box .box1 ul{
+				     position: absolute;
+					 z-index: 5;
+					 left:850px;
+					 bottom:310px
+			}
+#bon .box .box1 li{
+						float: left;
+						margin-left: 20px;
+						width: 20px;
+						height: 20px;
+						background: #FFFFFF;
+						border-radius: 50%;
+						list-style: none;
+			}
+
+#bon .box .box1 ul .hong{
+							background: #C5180F;
+							transition: 1s;
+}
+
+#bon .box .box2 .qqq{
+	           width: 675px;
+			   height: 675px;
+			   background: url(img/1.jpg) no-repeat;
+			   left: 943px;
+			   top:  128px;
+			   position:absolute;
+			   z-index: 10;
+			   cursor: pointer;
+}
+#bon .box .box3 .www{
+	           width: 675px;
+			   height: 675px;
+			   background: url(img/2.jpg) no-repeat;
+			   left: 943px;
+			   top:  128px;
+			   position:absolute;
+			   z-index: 9;
+}
+#bon .box .box4 .eee{
+	           width: 675px;
+			   height: 675px;
+			   background: url(img/3.jpg) no-repeat;
+			   left: 943px;
+			   top:  128px;
+			   position:absolute;
+			   z-index: 8;
+}
+#bon .box .box5 .rrr{
+	           width: 675px;
+			   height: 675px;
+			   background: url(img/4.jpg) no-repeat;
+			   left: 943px;
+			   top:  128px;
+			   position:absolute;
+			   cursor: pointer;
+			   z-index: 7;
+}
+/* 第五块 */
+#bon .teaching {
+			    width: 1920px;
+				height: 851px;
+				background: #000000;
+				position:absolute;
+				top:5077px;
+}
+#bon .teaching .tt{
+	               position:absolute;
+				   right: 280px;
+				   
+}
+
+#bon .teaching .teachin_g{
+	                      width: 1920px;
+						  height: 823px;
+						  background: #231c1c;
+						  position:absolute;
+						  top:175px;
+}
+#bon .teaching .teachin_g .teachi_ng{
+	                      width: 1555px;
+						  height: 618px;
+						  margin-top: 28px;
+						  margin-left: 23px;
+}
+#bon .teaching .teachin_g .teachi_ng .index{
+	                                        width: 738px;
+											height: 774px;
+											overflow: hidden;
+											position:absolute;
+}
+
+#bon .teaching .teachin_g .teachi_ng .index img{
+												transition: all 0.8s; 
+}
+#bon .teaching .teachin_g .teachi_ng .index:hover img{
+												transform: scale(1.1);
+}
+
+#bon .teaching .teachin_g .teachi_ng .inde_x{
+	                                         width:322px;
+											 height: 774px;
+											 overflow: hidden;
+											 position:absolute;
+											 right: 25px;
+}
+#bon .teaching .teachin_g .teachi_ng .inde_x img{
+												transition: all 0.8s; 
+}
+#bon .teaching .teachin_g .teachi_ng .inde_x:hover img{
+	                                        transform: scale(1.1);
+}
+
+#bon .teaching .teachin_g .teachi_ng .ind_ex {
+	                                            width: 768px;
+												height: 383px;
+												position: absolute;
+												overflow: hidden;
+												z-index: 1;
+												left: 783px;
+}
+#bon .teaching .teachin_g .teachi_ng .in_dex {
+	                                            width: 768px;
+												height: 383px;
+												overflow: hidden;
+												position: absolute;
+												z-index: 1;
+												top:417px;
+												left: 783px;
+}
+#bon .teaching .teachin_g .teachi_ng .you1{ 
+										   position:absolute;
+										   z-index: 55;
+										   right: 393px;
+										   top:338px;
+										   width: 54px;
+										   height: 50px;
+										   background: url(img/youjiantou.png);
+	
+}
+#bon .teaching .teachin_g .teachi_ng .you1:hover{ 
+												background-position:0px 50px ;
+}
+#bon .teaching .teachin_g .teachi_ng .you2{ 
+										   position:absolute;
+										   z-index: 55;
+										   right: 393px;
+										   top:729px;
+										   width: 54px;
+										   height: 50px;
+										   background: url(img/youjiantou.png);
+	
+}
+
+#bon .teaching .teachin_g .teachi_ng .you2:hover{ 
+												background-position:0px 50px ;
+}
+/* 视频 */
+#bon .sp{
+	    width:100% ;
+		height:100% ;
+	    position: fixed;
+		z-index: 99;
+		background-color: rgba(0,0,0,0.8);
+		display: none;
+}
+.video{
+	 position: absolute;
+	 top: 12%;
+	 left: 25%;
+	 	 z-index: 99;
+	 width: 800px;
+	 height: 600px;
+}
+#bon .sp #x{
+	        position:absolute;
+			top: 5px;
+			right: 27px;
+			color:#FFFFFF;
+			font-size:60px ;
+			cursor: pointer;
+}
+
+
+
+/* //版权 */
+
+.copy {
+	width: 1920px;
+	height: 713px;
+	background: url(img/yuewuibj.jpg) no-repeat;
+	position: absolute;
+	top: 6075px;
+}
+
+.copy .zuoyue{
+	width: 1039px;
+	height: 710px;
+	background: url(img/yuewui.jpg) no-repeat;
+	margin-left: 5px;
+	position: relative;
+}
+
+.copy .zuoyue .youtu{
+	width: 544px;
+	height: 710px;
+	background: url(img/tuyi.jpg);
+	position: absolute;
+	right: 0;
+}
+
+.copy .fanhui{
+	width: 76px;
+	height: 75px;
+	background: url(img/fanhu.jpg);
+	position: absolute;
+	right: 0;
+	bottom: 3px;
+}
+
+.copy .zuoyue .youtu .tu1{
+	position: absolute;
+	right: 275px;
+	top: 225px;
+	animation: tu1 3s infinite linear;
+}
+
+.copy .zuoyue .youtu .tu2{
+	position: absolute;
+	left: 45px;
+	top: 148px;
+	width: 5%;
+	animation: tu2 3s infinite linear;
+}
+
+.copy .zuoyue .youtu .tu3{
+	position: absolute;
+	right: 64px;
+	top: 170px;
+	width: 5%;
+	animation: tu3 3s infinite linear;
+}
+
+.copy .zuoyue .youtu .tu4{
+	position: absolute;
+	right: 169px;
+	top: 360px;
+	width: 5%;
+	animation: tu4 3s infinite linear;
+}
+
+.copy .zuoyue .youtu .tu5{
+	position: absolute;
+	right: 151px;
+	top: 350px;
+	width: 5%;
+	animation: tu5 3s infinite linear;
+}
+
+.copy .zuoyue .youtu .tu6{
+	position: absolute;
+	right: 385px;
+	top: 502px;
+	width: 5%;
+	animation: tu5 3s infinite linear;
+}
+
+@keyframes tu1{
+	
+	0%{top: 225px}
+	25%{top: 230px}
+	50%{top: 235px}
+	100%{top: 225px}
+	
+}
+@keyframes tu2{
+	
+	0%{top: 148px}
+	25%{top: 155px}
+	50%{top: 160px}
+	100%{top: 148px}
+	
+}
+@keyframes tu3{
+	
+	0%{top: 170px}
+	25%{top: 175px}
+	50%{top: 180px}
+	100%{top: 170px}
+	
+}
+
+@keyframes tu4{
+	
+	0%{top: 360px}
+	25%{top: 365px}
+	50%{top: 370px}
+	100%{top: 360px}
+	
+}
+
+@keyframes tu5{
+	
+	0%{top: 503px}
+	25%{top: 509px}
+	50%{top: 515px}
+	100%{top: 503px}
+	
+}
+
+@keyframes tu5{
+	
+	0%{top: 490px}
+	25%{top: 495px}
+	50%{top: 500px}
+	100%{top: 490px}
+	
+}
